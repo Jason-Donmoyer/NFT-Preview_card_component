@@ -19,7 +19,7 @@
 
 /* Font Family, Sizing and Weights */
   --main-font: 'Outfit', sans-serif;
-  --p-size: 18px;
+  --font-size: 18px;
   --fw-light: 300;
   --fw-normal: 400;
   --fw-bold: 600;
@@ -30,7 +30,7 @@
 
 html {
   box-sizing: border-box;
-  font-size: var(--p-size);
+  font-size: var(--font-size);
 }
 
 *,
@@ -41,9 +41,22 @@ html {
 
 
 body {
+  height: 100vh;
   font-family: var(--main-font);
   font-weight: var(--fw-normal);
   background-color: var(--main-bg-dark-blue);
+  color: var(--white);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.main-content-container {
+  height: 30.166667rem;
+  width: 18.166667rem;
+  border: 1px solid red;
 }
 
 
