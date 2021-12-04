@@ -1,0 +1,50 @@
+/********** IMPORTS **********/
+
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+
+/********** VARIABLES **********/
+
+:root {
+
+/* Colors */
+  --soft-blue: hsl(215, 51%, 70%);
+  --cyan: hsl(178, 100%, 50%);
+  --main-bg-dark-blue: hsl(217, 54%, 11%);
+  --card-bg-dark-blue: hsl(216, 50%, 16%);
+  --line-dark-blue: hsl(215, 32%, 27%);
+  --white: hsl(0, 0%, 100%);
+
+
+/* Font Family, Sizing and Weights */
+  --main-font: 'Outfit', sans-serif;
+  --p-size: 18px;
+  --fw-light: 300;
+  --fw-normal: 400;
+  --fw-bold: 600;
+}
+
+
+/********** BOX SIZING and GLOBAL STYLES**********/
+
+html {
+  box-sizing: border-box;
+  font-size: var(--p-size);
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+
+body {
+  font-family: var(--main-font);
+  font-weight: var(--fw-normal);
+  background-color: var(--main-bg-dark-blue);
+}
+
+
+
