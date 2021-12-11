@@ -154,6 +154,9 @@ body {
 
 .blue-line {
   border-top: 1px solid var(--line-dark-blue);
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
   margin-top: 0.888889rem;
   margin-bottom: 0.888889rem;
 }
@@ -186,3 +189,58 @@ body {
   color: var(--soft-blue);
 }
 
+
+/********** MEDIA QUERIES **********/
+
+
+/* Desktop */
+@media screen and (min-width: 415px) {
+  
+
+  .main-content-container {
+    height: 33.111111rem;
+    width: 19.444444rem;
+  }
+
+
+  .main-image-container {
+    height: 16.777778rem;
+    width: 16.777778rem;
+  }
+
+
+  .main-copy {
+    margin-top: 0.888889rem;
+  }
+
+  .pricing-info-container {
+    height: 1.111111rem;
+    margin-top: 1.333333rem;
+  }
+
+
+  .pricing-info-container h2 {
+    font-size: 0.888889rem;
+    line-height: 1.12rem;
+  }
+
+  .price-container {
+    width: 5.193333rem;
+  }
+
+
+  .time-remaining-container {
+    width: 5.372222rem;
+  }
+
+
+  .blue-line {
+    margin-top: 1.333333rem;
+  }
+
+
+  .credit-container {
+    width: 12.777778rem;
+  }
+
+}
