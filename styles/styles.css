@@ -186,7 +186,7 @@ body {
   width: 12.166667rem;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   margin: 0;
   padding: 0;
 }
@@ -195,6 +195,9 @@ body {
 .avatar-img {
   height: 1.833333rem;
   width: 1.833333rem;
+  border: 1px solid var(--white);
+  border-radius: 50%;
+  margin-right: 16px;
 }
 
 
